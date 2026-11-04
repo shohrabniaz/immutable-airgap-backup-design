@@ -1,10 +1,17 @@
 {
-  "seq": 31,
   "title": "Immutable and Air-Gapped Backup Design to Counter Ransomware in SMEs",
-  "slug": "immutable-and-air-gapped-backup-design-to-counter-ranso",
+  "old_slug": "immutable-and-air-gapped-backup-design-to-counter-ranso",
+  "slug": "immutable-airgap-backup-design",
   "folder": "Immutable_And_Air_Gapped_Backup_Design_To",
   "kind": "resilience",
-  "body_words": 245,
+  "body_words": 322,
+  "source": "SCI700",
   "project_id": "Project 27",
-  "source": "SCI700"
+  "public": {
+    "public_ok": true,
+    "tier": "public-ok",
+    "reasons": [
+      "Strong portfolio narrative; synthetic baseline is fine for public"
+    ]
+  }
 }

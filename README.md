@@ -1,24 +1,40 @@
 # Immutable and Air-Gapped Backup Design to Counter Ransomware in SMEs
 
-Portfolio pack by Md Shohrab Hossen Niaz. Fictional / laboratory SME context unless noted. Professional delivery artefact — not a course-code wrapper.
+**Author:** Md Shohrab Hossen Niaz  
+**Focus:** resilience  
+**Visibility guidance:** public-ok
+
+## Overview
+
+Immutable backup design; strong industry narrative with ransomware theme.
 
 ## Research questions
 
-1. What backup design meets SME RTO/RPO needs?
-2. How is recoverability proven with tests?
-3. What immutability controls defeat ransomware?
+1. What business problem does “Immutable and Air-Gapped Backup Design to Counter Ransomware in SMEs” solve for an SME or partner organisation?
+2. Which artefacts demonstrate a credible, implementable solution?
+3. How is success measured without overstating lab or synthetic evidence?
 
-## Artefacts
+## Deliverables
 
 - backup design
 - test schedule
 - RTO/RPO workbook
+- Report and presentation (`Final_Submission/`)
+- Evaluation scorecard (`02_Evaluation/`)
+- Design notes (`01_Design/`)
+- Baseline evidence JSON (`evidence/`)
 
-## Contents
+## Repository layout
 
-- `Final_Submission/` — report, slides, read-me
-- `01_Design/` — design and method notes
-- `02_Evaluation/` — workbook / scorecard
-- `evidence/` — synthetic or lab JSON baseline
+```
+01_Design/           Design and method notes
+02_Evaluation/       Scorecard workbook
+evidence/            Baseline evidence model
+Final_Submission/    Report, slides, appendices
+```
 
-Repository: `immutable-and-air-gapped-backup-design-to-counter-ranso`
+## Limits
+
+Synthetic or laboratory baselines are labelled. No production tenant secrets. Where a topic could imply offensive techniques, this pack stays defensive and high-level.
+
+**GitHub:** `immutable-airgap-backup-design`
